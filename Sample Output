@@ -1,0 +1,11 @@
+SAMPLE OUTPUT
+📊 Traffic Classification Report:
+Accuracy: ~96%
+Precision/Recall: > 90% on known attack types
+
+🔍 Anomaly Detection (Isolation Forest):
+Actual: Benign    → Predicted: Normal
+Actual: PortScan  → Predicted: Anomaly
+
+🔒 Privacy-Preserving Detection:
+Accuracy: ~92% using only flow-based metadata (no payload)
