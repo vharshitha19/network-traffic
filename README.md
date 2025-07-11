@@ -5,15 +5,15 @@ This project applies Artificial Intelligence (AI) and Machine Learning (ML) tech
 It detects threats like DDoS, Port Scans, and even unknown anomalies, while supporting privacy-preserving analysis — even on encrypted traffic using only metadata.
 
 🚀 **Key Features**
-✅ Traffic Classification using supervised learning (Random Forest)
+ Traffic Classification using supervised learning (Random Forest)
 
-✅ Anomaly Detection with Isolation Forest (unsupervised)
+ Anomaly Detection with Isolation Forest (unsupervised)
 
-✅ Performance Optimization using GridSearchCV
+ Performance Optimization using GridSearchCV
 
-✅ Privacy-Preserving Traffic Analysis using only metadata (no payloads)
+ Privacy-Preserving Traffic Analysis using only metadata (no payloads)
 
-✅ Google Colab Compatible + Modular Python Code
+ Google Colab Compatible + Modular Python Code
 
 📁 **Project Structure**
 ai-network-security/
@@ -27,29 +27,29 @@ ai-network-security/
 ├── main.py                       # Main script to run the pipeline
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation (this file)
-📊 **Sample Outputs**
-  📊 **Traffic Classification Report:**
+ **Sample Outputs**
+   **Traffic Classification Report:**
 Accuracy: ~96%
 Precision/Recall: > 90% on known attack types
 
-🔍 **Anomaly Detection** (Isolation Forest):
+ **Anomaly Detection** (Isolation Forest):
 Actual: Benign    → Predicted: Normal
 Actual: PortScan  → Predicted: Anomaly
 
-🔒** Privacy-Preserving Detection:**
+** Privacy-Preserving Detection:**
 Accuracy: ~92% using only flow-based metadata (no payload)
-📥 How to Run This Project
-▶️ In Google Colab
+ How to Run This Project
+▶ In Google Colab
 Upload your .csv dataset in the data/ folder (or use the sample)
 
 Copy all files into Colab or run main.py
 
 Outputs will be printed in the notebook
 
-💻 **On Local Machine**
+  **On Local Machine**
 pip install -r requirements.txt
 python main.py
-📂 Dataset Requirements
+  Dataset Requirements
 The model expects:
 
 .csv file with numeric features
@@ -60,11 +60,11 @@ Example values: Benign, DDoS, PortScan, Suspicious, etc.
 
 You can use:
 
-✅ **sample_network_traffic.csv** (provided)
+  **sample_network_traffic.csv** (provided)
 
-🔗 NSL-KDD, CICIDS2017, CICIDS2018, UNSW-NB15, TON_IoT (open datasets)
+  NSL-KDD, CICIDS2017, CICIDS2018, UNSW-NB15, TON_IoT (open datasets)
 
-🧠 Technologies Used
+  Technologies Used
 Python 3.x
 
 Pandas
@@ -75,10 +75,10 @@ Numpy
 
 Google Colab / Jupyter Notebook
 
-🎯 Outcomes Covered
+  Outcomes Covered
 Outcome	Description
-✅ 1	Automated traffic classification using AI
-✅ 2	Anomaly & threat detection (supervised + unsupervised)
-✅ 3	Reduced false positives using tuning
-✅ 4	Optimized model performance (GridSearchCV)
-✅ 5	Privacy-preserving detection for encrypted flows
+  1	Automated traffic classification using AI
+  2	Anomaly & threat detection (supervised + unsupervised)
+  3	Reduced false positives using tuning
+  4	Optimized model performance (GridSearchCV)
+  5	Privacy-preserving detection for encrypted flows
